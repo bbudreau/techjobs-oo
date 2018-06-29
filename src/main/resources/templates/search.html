@@ -31,8 +31,9 @@
     <hr />
 
     <div th:replace="list-jobs :: jobs-list"></div>
+    <div th:unless="${jobs} and ${jobs.size()}">No Results</div>
 
 </div>
 
 </body>
-</html>
+</html></html>
